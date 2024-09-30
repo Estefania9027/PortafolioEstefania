@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    padding:10px;
+    margin: auto;
+    background-color: #125b9a;
+    color: #f05a7e;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.menulateral{
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    
+    
+}
+
+.portafoliodes{
+    /*display: flex; */
+    color:  #0B8494;
+    background-color: white;
+    border-radius: 100px;
+    height: 100px;
+    font-weight: bold;
+    padding: 12px;
+    top: -10px;
+    position: relative;
+    font-style: bold;
+    text-decoration-style: solid;
+    text-decoration-style:solid;
+    font-weight: 1000px;
+    font-size: 30px;
+    size: 200em;
+    inset-block:initial;
+    
+    
+}
+
+.actividades{
+    /* display: flex; */
+    color:  #0B8494;
+    background-color: white;
+    border-radius: 100px;
+    height: 100px;
+    font-weight: bold;
+    padding: 12px;
+    top: -10px;
+    position: relative;
+    font-style: bold;
+    text-decoration-style: solid;
+    text-decoration-style:solid;
+    font-weight: 1000px;
+    font-size: 30px;
+    size: 200em;
+
+
+}
+
+.nombre{
+    color: white;
+    text-align: center;
+    font-size: 38px;
+}
+
+.cargo{
+    text-align: center;
+    font-size: 29px;
+    font-style:italic;
+    font-weight: bold;
+    padding-top: 0%;
+    
+
+}
+
+.sobremi{
+    color:white;
+    background-color: #f05a7e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight:600;
+    top: 1px;
+    align-items: 100px;
+    margin-top: -80px;
+    
+}
+
+.descripcion{
+    color: white;
+    font-size: 20px;
+    font-weight:400;
+    column-gap: normal;
+    text-justify: inter-cluster;
+    top: 43px;
+    text-align: justify; /*Esta es para justificar el parrafo */
+
+}
+
+.descripcion2{
+    color: white;
+    font-size: 20px;
+    text-justify: inter-cluster;
+    top: 43px;
+    text-align: justify;
+}
+
+span{
+    color:f05a7e;
+    background: none;
+}
+
+
+
+.descripcion3{
+    color: white;
+    font-size: 20px;
+    text-justify: inter-cluster;
+}
+
+.foto{
+    height: 505px;
+    text-align: left;
+    width: auto;
+    float: right;
+    border-radius: 100cap;
+
+}
+
+.exprof{
+    color:white;
+    background-color: #f05a7e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight:600;
+    top: 2px;
+    align-items: 100px;
+    margin-top: -80px;
+    margin: 10px;
+}
+
+.subtitulolink:{
+    text-align:center;
+    top:50px;
+    border-style: dashed;
+    border-color: aliceblue;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 10px;
+    
+
+}
+
+.redes{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.linkyoutube{
+    background-color: white;
+    font-size: 38px;
+    color: #f05a7e;
+    text-align: center;
+    border-radius: 18px;
+    margin:20px;
+    width: 250px;
+    font-weight: 600;
+    border-color: #0B8494;
+    border-style: double;
+    line-height: 13px;
+    position: relative;
+    left: 850px;
+    top: -50px;
+        
+    
+}
+
+.linklinkedin{
+    background-color: white;
+    background-size: 1000px;
+    font-size: 38px;
+    color: #f05a7e;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+    border-color: #0B8494;
+    border-style: double;
+    position: relative;
+    left: 130px;
+    top: -50px;
+    width: 250;
+}
+
+.avatar{
+    position:relative;
+    height: 80px;
+    top: -230px;
+    border-radius: 20px;
+    left: 300px;
+    
+}
+
+.logolinkedin{
+    height: 90px;
+    border-radius: 800px;
+    top:-10px;
+    position: relative;
+    left: 115px;
+    
+}
+
+.logoyoutube{
+    height: 70px;
+    border-radius: 320px;
+    position: relative;
+    top: -15px;
+    left: 200px;
+}
+
+.piedepag{
+    color: gray;
+    font-style: oblique;
+    position:relative;
+    text-align: center;
+    top: -30px;
+}
+.videohablanda{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.video1{
+    color: aliceblue;
+    border-color: black;
+    align-items: center;
+
+}
+
+.msjv1{
+    text-align: center;
+}
+
+/*segunda pagina: portafolio de servicios */
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color:white;
+    position: center;
+    text-align: center;
+    font-size: 80px;
+    height: auto;
+    border-radius: 0cap;
+    /*border-color: #f05a7e; */
+    text-decoration:underline;
+    -webkit-text-stroke: #f05a7e;
+}
+
+.titulo2{
+    color: #f05a7e;
+    text-align: center;
+    top: -30px;
+}
+
+.servicio{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; /* letra negrilla*/
+    font-size: 50px;
+    border-color: #f05a7e;
+    border-style: ridge;
+   
+}
+
+.deserv{
+    color: black;
+    font-size: 25px;
+}
+
+.pict{
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+}
